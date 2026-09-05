@@ -1,0 +1,39 @@
+/*
+- 1 type selector ~~~
+- 1 class ~~
+- Use the class ~~
+- Use margin and padding ~~
+- cards have diff background colors from rest of page ~~
+- add-to-cart btns have diff background color from rest of page ~~
+- Properties inside cards have been changed  ~~
+- The contrast ratios of all text on the page pass the WCAG AA standards
+*/
+
+h2 {
+  font-style: italic;
+  background-color: beige;
+}
+
+.add-cart-btn {
+  background-color: rgb(155, 185, 254);
+  cursor: pointer;
+}
+
+.card {
+  border: 1px solid;
+  border-radius: 3px;
+  background-color: rgb(215, 215, 207);
+  margin: 8px;
+  padding: 10px;
+  width: 25%;
+}
+
+.price {
+  background-color: white;
+  color: green;
+  width: 100px;
+}
+
+.card-p {
+  font-family: cursive;
+}
